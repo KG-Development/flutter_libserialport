@@ -5,7 +5,7 @@
 #define HAVE_CLOCK_GETTIME 1
 
 /* Define to 1 if you have the declaration of `BOTHER', and to 0 if you don't.
-   */
+ */
 #define HAVE_DECL_BOTHER 1
 
 /* Define to 1 if you have the <dlfcn.h> header file. */
@@ -54,7 +54,7 @@
 /* #undef HAVE_STRUCT_TERMIOS_C_OSPEED */
 
 /* Define to 1 if the system has the type `struct termiox'. */
-#define HAVE_STRUCT_TERMIOX 1
+// #define HAVE_STRUCT_TERMIOX 1
 
 /* sys/file.h is available. */
 #define HAVE_SYS_FILE_H 1
@@ -130,7 +130,7 @@
 
 /* Enable large inode numbers on Mac OS X 10.5.  */
 #ifndef _DARWIN_USE_64_BIT_INODE
-# define _DARWIN_USE_64_BIT_INODE 1
+#define _DARWIN_USE_64_BIT_INODE 1
 #endif
 
 /* Number of bits in a file offset, on hosts where this is settable. */
@@ -143,8 +143,8 @@
 /* #undef size_t */
 
 #if HAVE_STRUCT_TERMIOS_C_ISPEED && HAVE_STRUCT_TERMIOS_C_OSPEED
-# define HAVE_TERMIOS_SPEED 1
+#define HAVE_TERMIOS_SPEED 1
 #endif
 #if HAVE_STRUCT_TERMIOS2_C_ISPEED && HAVE_STRUCT_TERMIOS2_C_OSPEED
-# define HAVE_TERMIOS2_SPEED 1
+#define HAVE_TERMIOS2_SPEED 1
 #endif
