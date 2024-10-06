@@ -1,3 +1,17 @@
+## 0.5.0
+
+* Add namespace for Android
+* Update Kotlin to 2.0.0
+
+## 0.4.0
+
+* Upgrade libserialport sources to 0.1.1
+* Fix TERMIOX definition
+
+## 0.3.0
+
+* Upgrade to Dart 2.17, Flutter 3.0, libserialport 0.3
+
 ## 0.2.3
 
 * Fix linux builds for newer kernels (thanks @sitic)
@@ -13,7 +27,7 @@
 ## 0.2.0
 
 * Rename from flutter_serial_port to flutter_libserialport
-  https://github.com/jpnurmi/flutter_libserialport/issues/1
+  <https://github.com/jpnurmi/flutter_libserialport/issues/1>
 
 ## 0.1.1
 
